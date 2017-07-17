@@ -12,18 +12,15 @@ From the scikit-learn library, I built a series of grid-searched k-neighbors, tr
 
 My best model which gives the highest test score is "Random Forest Regressor" with below parameters:
 
-          bootstrap=True, criterion='mse', 
-          max_depth=None,
-          max_features='auto', 
-          max_leaf_nodes=None,
-          min_impurity_split=1e-07, 
-          min_samples_leaf=1,
-          min_samples_split=2, 
-          min_weight_fraction_leaf=0.0,
-          n_estimators=24
+          bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_split=1e-07, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=28, n_jobs=1, oob_score=False, random_state=42
           
           
 I've conducted a 
-          Train_Score: 0.971507736499
-          Test_Score: 0.884207902205
+          Train_Score: 0.97292543997
+          Test_Score: 0.888000886093
 on the "train.csv" dataset
+
