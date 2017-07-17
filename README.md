@@ -26,5 +26,4 @@ My best model which gives the highest test score is "Random Forest Regressor" wi
 I've conducted a 
           Train_Score: 0.971507736499
           Test_Score: 0.884207902205
-
 on the "train.csv" dataset
