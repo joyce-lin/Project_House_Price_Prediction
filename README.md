@@ -1,4 +1,4 @@
-### Predicting House Sales Prices Using Advanced Regression Techniques
+## Predicting House Sales Prices Using Advanced Regression Techniques
 
 This project was based on a Kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
