@@ -8,7 +8,7 @@ The dataset I used consisted of 79 variables describing features of homes in Ame
 
 I used Numpy, Pandas, and Seaborn plots for exploratory data analysis and data cleaning.
 
-From the scikit-learn library, I built a series of grid-searched k-neighbors, tree-based models to try to improve my predictive accuracy.
+From the scikit-learn library, I built a series of grid-searched k-neighbors, tree-based, linear regression models to try to improve my predictive accuracy.
 
 My best model which gives the highest test score is "Random Forest Regressor" with below parameters:
 
